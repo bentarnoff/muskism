@@ -95,6 +95,34 @@ body {
     margin: 20px 0;
 }
 
+.toc {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #ccccff;
+    border: 3px solid #0000ff;
+}
+
+.toc p {
+    margin: 8px 0;
+    font-size: 1.4rem;
+    font-family: Arial, sans-serif;
+}
+
+.toc a {
+    color: #0000ff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.toc a:visited {
+    color: #800080;
+}
+
+.toc a:hover {
+    color: #ff0000;
+    background-color: #ffff00;
+}
+
 .btn {
     display: inline-block;
     padding: 12px 24px;
@@ -250,6 +278,60 @@ body {
     color: #ff0000;
     margin-right: 8px;
     font-weight: bold;
+}
+
+/* Events Section */
+.events {
+    padding: 30px;
+    background-color: #ffffcc;
+    border: 5px ridge #808080;
+    margin: 20px;
+}
+
+.events h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #0000ff;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.events-intro {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #000000;
+    font-style: italic;
+}
+
+.events-list {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.events-list li {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    padding: 12px;
+    background-color: #ffffff;
+    border: 3px solid #ff0000;
+    color: #000000;
+    font-weight: bold;
+}
+
+.events-list a {
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+.events-list a:visited {
+    color: #800080;
+}
+
+.events-list a:hover {
+    color: #ff0000;
+    background-color: #ffff00;
 }
 
 /* Footer */
